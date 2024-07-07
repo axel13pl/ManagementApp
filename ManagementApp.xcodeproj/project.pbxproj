@@ -14,6 +14,9 @@
 		B6F599D52C3A7A4900813A47 /* ManagementAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F599D42C3A7A4900813A47 /* ManagementAppTests.swift */; };
 		B6F599DF2C3A7A4900813A47 /* ManagementAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F599DE2C3A7A4900813A47 /* ManagementAppUITests.swift */; };
 		B6F599E12C3A7A4900813A47 /* ManagementAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F599E02C3A7A4900813A47 /* ManagementAppUITestsLaunchTests.swift */; };
+		B6F599EE2C3A7EB300813A47 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F599ED2C3A7EB000813A47 /* AuthView.swift */; };
+		B6F599F02C3A7EDC00813A47 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F599EF2C3A7ED800813A47 /* UserProfileView.swift */; };
+		B6F599F22C3A7F2300813A47 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F599F12C3A7F1F00813A47 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		B6F599DA2C3A7A4900813A47 /* ManagementAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ManagementAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6F599DE2C3A7A4900813A47 /* ManagementAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagementAppUITests.swift; sourceTree = "<group>"; };
 		B6F599E02C3A7A4900813A47 /* ManagementAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagementAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B6F599ED2C3A7EB000813A47 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		B6F599EF2C3A7ED800813A47 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		B6F599F12C3A7F1F00813A47 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,9 @@
 		B6F599C22C3A7A4600813A47 /* ManagementApp */ = {
 			isa = PBXGroup;
 			children = (
+				B6F599F12C3A7F1F00813A47 /* User.swift */,
+				B6F599EF2C3A7ED800813A47 /* UserProfileView.swift */,
+				B6F599ED2C3A7EB000813A47 /* AuthView.swift */,
 				B6F599C32C3A7A4600813A47 /* ManagementAppApp.swift */,
 				B6F599C52C3A7A4600813A47 /* ContentView.swift */,
 				B6F599C72C3A7A4800813A47 /* Assets.xcassets */,
@@ -258,7 +267,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6F599C62C3A7A4600813A47 /* ContentView.swift in Sources */,
+				B6F599EE2C3A7EB300813A47 /* AuthView.swift in Sources */,
 				B6F599C42C3A7A4600813A47 /* ManagementAppApp.swift in Sources */,
+				B6F599F22C3A7F2300813A47 /* User.swift in Sources */,
+				B6F599F02C3A7EDC00813A47 /* UserProfileView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
